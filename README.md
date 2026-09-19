@@ -79,12 +79,22 @@ Designed as a lightweight, modern alternative to paid tools, RPMac includes **ha
 - Free and open source (GPL-2.0)
 
 ## Install
-No installer needed — it's a portable app.
+No installer needed — it's a portable app. Although if you want to install it on your system, there is an installer for that.
+The benefit of the installer version is that it automatically launches with the system and also is harder to accidentally 
+delete.
 
+### Portable Instructions
 1. Go to the [**Releases**](https://github.com/golirt1/RPMAC/releases/latest) page and download `RPMac-v1.9.0-windows.zip` (under **Assets**).
 2. **Unzip it** to any folder you like (e.g. your Desktop). Keep `RPMac.exe`, `RPMac.exe.config`, `smccore.exe` and `inpout32.dll` **together in the same folder**.
 3. **Right-click `RPMac.exe` → "Run as administrator"** (administrator rights are required to access the Mac's hardware/SMC).
 4. Set each fan to **Auto / Max / a custom RPM**. Temperatures update live.
+
+### Installer instructions
+1. Go to the releases as documented above in the portable instructions.
+2. But instead, download the executable with `setup` in its name instead.
+3. Run it and follow the instructions; it should also automatically install the application to the system.
+4. If the app doesn't immediately start, open it up from the start menu.
+5. Use it in the same way as the portable version above.
 
 > **If Windows blocks it:** RPMac is a small open-source app and isn't code-signed (a certificate costs a few hundred dollars a year), so Windows doesn't recognise it yet.
 > - **SmartScreen** ("Windows protected your PC") → **More info → Run anyway**.
