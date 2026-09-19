@@ -80,8 +80,8 @@ Designed as a lightweight, modern alternative to paid tools, RPMac includes **ha
 
 ## Install
 No installer needed — it's a portable app. Although if you want to install it on your system, there is an installer for that.
-The benefit of the installer version is that it automatically launches with the system and also is harder to accidentally 
-delete.
+The benefit of the installer version is that it automatically launches with the system, adds `smccore.exe` to PATH, and also 
+is harder to accidentally delete.
 
 ### Portable Instructions
 1. Go to the [**Releases**](https://github.com/golirt1/RPMAC/releases/latest) page and download `RPMac-v1.9.0-windows.zip` (under **Assets**).
