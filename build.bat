@@ -56,7 +56,7 @@ copy /y "%ROOT%src\gui\RPMac.exe.config" "%ROOT%build\RPMac.exe.config" >nul 2>&
 
 REM Copy inpout32.dll. If RPMac is running it holds the DLL open; that's fine,
 REM the existing copy is identical, so don't fail the build over it.
-copy /y "%ROOT%third_party\InpOut32\inpout32.dll" "%ROOT%build\inpout32.dll" >nul 2>&1
+copy /y "%ROOT%third_party\InpOut32\bin\Win32\inpout32.dll" "%ROOT%build\inpout32.dll" >nul 2>&1
 if not exist "%ROOT%build\inpout32.dll" (
   echo BUILD FAILED: inpout32.dll missing
   exit /b 1
